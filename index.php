@@ -127,7 +127,7 @@ if (isset($_POST['login'])) {
            if(isset($_COOKIE['recent_login_id'])) :
            $recent_login_user= json_decode($_COOKIE['recent_login_id'], true);
            $recent_login_user_id= implode(',', $recent_login_user);
-           $all_users= connector()->query("SELECT * FROM users WHERE id IN ($recent_login_user_id)");
+           $all_users= connector()->query("SELECT * FROM users WHERE id IN ($recent_login_user_id) ORDER BY id DESC LIMIT 3");
            while($users_data= $all_users->fetch_object()) :
            
            
