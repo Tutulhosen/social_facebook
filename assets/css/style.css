@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: tahoma;
+}
+
+input{
+    box-sizing:border-box;
+    border: 1px solid #1d2a5b;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* CSS RESET */
+
+
+/* LOGIN PAGE DESIGN */
+
+.container1{
+    width: 70%;
+    margin: 100px auto 0px;
+}
+.wrap{
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+}
+
+.left_col{
+    margin-top: 50px;
+}
+
+.left_col img{
+    padding: 10px;
+    background-color: #5a5acb;
+    border-radius: 5px;
+}
+
+.left_col h2{
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.right_col .card{
+    width: 340px;
+    margin: auto;
+    text-align: center;
+}
+.right_col a{
+   font-size: 12px;
+   
+}
+
+/* PROFILE PAGE DESIGE */
+
+.profile_menu{
+    text-transform: uppercase;
+    background-color: rgb(92, 75, 250);
+  
+}
+
+.profile_menu ul li a{
+    color: white;
+    font-size: 14px;
+   
+}
+.profile_menu ul li a:hover{
+    color: white;
+    
+}
+.card img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+
+.profile_body .card{
+    width: 440px;
+    margin: auto;
+    text-align: center;
+}
+.reg_page .wrap{
+    width: 500px;
+}
+
+
